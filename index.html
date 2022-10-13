@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
     <title>Mini Portfolio - Alisson</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
 
         <div class="conteudo">
             <ul class="abas">
-                <li class="aba">
+                <li class="aba selecionado">
                     <img src="./src/imagens/sobre.gif" alt="sobre">
                 </li>
                 <li class="aba">
@@ -29,26 +31,28 @@
             </ul>
 
             <div class="informacoes-abas">
-                <div class="informacao">
+                <div class="informacao selecionado">
                     <h3 class="sub-titulo">
                         Sobre
                     </h3>
 
                     <div>
-                        <p>Oi! meu nome é Alisson da Silva, seja bem-vindo(a)!</p>
-                        <p>Sou uma pessoa apaixonada pela programação desde que eu tinha 19
+                        <p class="descricao">Oi! meu nome é Alisson da Silva, seja bem-vindo(a)!</p>
+                        <p class="descricao">Formado em Análise e Desenvolvimento de Sistemas. Sou uma pessoa apaixonada pela programação desde que eu tinha 19
                             anos. Sempre tive o sonho de trabalhar com programação e
                             atualmente comecei a colocar esse sonho em prática estudando
                             <span>HTML, CSS e JavaScript. </span>
                             Gosto muito de café (até demais), e meus principais hobbies são
-                            assistir filmes e séries da Marvel.</p>
+                            assistir filmes e séries da Marvel.
+                        
+                        </p>
                     </div>
                 </div>
 
                 <div class="informacao">
                     <h3 class="sub-titulo">Minhas redes</h3>
 
-                    <ul>
+                    <ul class="rede-sociais">
                         <li>
                             <a href="https://docs.google.com/document/d/1TSgsBJWsegYEAwHIj7omTmTIQqglXhLs80BFU9hjQnw/edit" target="_blank" class="curriculo">Currículo</a>
                         </li>
